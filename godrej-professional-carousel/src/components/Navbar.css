@@ -1,0 +1,25 @@
+#panel {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+@media (max-width: 1100px) {
+  #panel {
+    width: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  #panel {
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  #panel {
+    font-size: 15px;
+    width: 50%;
+  }
+}
